@@ -1,0 +1,11 @@
+# Author - Gene
+# Date - 3/19/2021
+# Version - v1
+# Control - 01
+# A basket of scripts and snippets for everyday shell scripting
+
+# How to add aliases for easy SSH'ing for servers with similar regex
+
+alias sshx='f(){ ssh <HOSTNAME_PREFIX>"$1"; unset -f f; }; f'
+
+--------------------------------------------------------------------
